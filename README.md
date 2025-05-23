@@ -1,7 +1,5 @@
 # LangChain GenAI Apps
 
-Welcome to the **LangChain GenAI Apps** repository!
-
 This project contains a collection of AI-powered backend and frontend applications built with **FastAPI**, **LangChain**, and **Streamlit**, designed for text generation use cases using **OpenAI** or **local Ollama models**.
 
 ---
@@ -13,7 +11,7 @@ This project contains a collection of AI-powered backend and frontend applicatio
 This folder contains the **FastAPI** backend with several endpoints showcasing generative AI capabilities:
 
 - ✨ **Text Generation Endpoints**
-  - General-purpose text generation using OpenAI or local Ollama models.
+  - General-purpose text generation with several chains.
   - Custom prompts for specific use cases:
     - 🍽️ Recipe generation for a dish.
     - 📧 Marketing email generation.
@@ -21,10 +19,10 @@ This folder contains the **FastAPI** backend with several endpoints showcasing g
     - ✍️ Blog post creation.
 
 - 🔎 **RAG (Retrieval-Augmented Generation) Examples**
-  - Demonstrates how to use LangChain with RAG to generate responses based on custom document sources.
+  - Demonstrates how to use LangChain with a RAG vector store to generate responses based on custom document sources. It also includes a history aware retriever.
 
 - 🤖 **Agent with Web Search**
-  - Example endpoint that uses a LangChain agent with access to a web search tool.
+  - Example endpoint that uses a LangChain agent with access to a web search tool for DuckDuckGo and Wikipedia.
 
 ### 📁 `streamlit-app/`
 
